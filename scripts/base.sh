@@ -20,4 +20,6 @@ cp -R ../origins-artifacts/config/* build/server/config
 
 cd build/server
 
-java -Xms1G -Xmx3G -jar fabric-server-launch.jar nogui
+zip server.zip -r ./* ./.*
+
+#java -Xms1G -Xmx3G -jar fabric-server-launch.jar nogui
